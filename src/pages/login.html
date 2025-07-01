@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="../../styles/global.css" />
+  </head>
+  <body>
+    <nav class="navbar">
+      <img class="logo" src="../../public/images/videobelajar.png" alt="" />
+    </nav>
+    <div class="loginContainer">
+      <div class="wrapperForm">
+        <h1>Masuk Ke Akun</h1>
+        <p>Yuk, lanjutin belajarmu di Video Belajar</p>
+        <form action="/login" method="POST">
+          <div>
+            <label class="form-label" for="email">Email:</label>
+            <input
+              class="form-input"
+              type="email"
+              id="email"
+              name="email"
+              required
+            />
+          </div>
+          <div>
+            <label class="form-label" for="password">Kata Sandi:</label>
+            <input
+              class="form-input"
+              type="password"
+              id="password"
+              name="password"
+              required
+            />
+          </div>
+          <div>
+            <a id="lupaPassword" href="#">Lupa Password?</a>
+          </div>
+          <div>
+            <button id="masuk" type="submit">Masuk</button>
+          </div>
+          <div>
+            <button id="Daftar"><a href="#">Daftar</a></button>
+          </div>
+          <div>
+            <p>Atau</p>
+          </div>
+          <div>
+            <button id="google">Masuk Dengan Google</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>

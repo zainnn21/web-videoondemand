@@ -1,0 +1,93 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "lato", sans-serif;
+  background-color: #fee8d2cc;
+  min-height: 100vh;
+  box-sizing: border-box;
+}
+.headContainer {
+  width: 100%;
+  background-color: blue;
+}
+
+.navbar {
+  position: relative;
+  padding: 10px;
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#kategori {
+  text-decoration: none;
+  color: grey;
+  font-size: 1rem;
+  font-weight: 1000;
+}
+
+.profile {
+  width: 50px;
+  border-radius: 10px;
+  max-height: 45px;
+}
+
+.navList {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  list-style: none;
+  gap: 50px;
+  margin-right: 10rem;
+}
+
+.logo {
+  margin-left: 7rem;
+}
+
+.toggleMenu {
+  display: none;
+}
+
+.loginContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  height: 100vh;
+  width: 100%;
+}
+
+.wrapperForm {
+  background-color: white;
+  border-radius: 5px;
+}
+
+/* Phone */
+@media (max-width: 600px) {
+  .profile {
+    display: none;
+  }
+  .logo {
+    margin-left: 0;
+    width: 13rem;
+  }
+  #kategori {
+    display: none;
+  }
+  .mobileMenu {
+    display: block;
+    margin-right: 1rem;
+  }
+  .toggleMenu {
+    margin-left: auto;
+    display: flex;
+    margin-top: 13px;
+    align-items: center;
+  }
+  .navList {
+    margin-right: 0;
+  }
+}
