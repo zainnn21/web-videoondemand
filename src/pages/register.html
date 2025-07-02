@@ -20,12 +20,10 @@
         <h1 class="formTitle">Pendaftaran Akun</h1>
         <p class="formDesc">Yuk, daftarkan akunmu sekarang juga!</p>
         <form action="/register" method="POST">
-          <div>
+          <div class="formGroup">
             <label for="namaLengkap" class="formLabel required"
               >Nama Lengkap</label
             >
-          </div>
-          <div>
             <input
               type="text"
               id="namaLengkap"
@@ -34,10 +32,8 @@
               class="formInput"
             />
           </div>
-          <div>
+          <div class="formGroup">
             <label for="email" class="formLabel required">E-Mail</label>
-          </div>
-          <div>
             <input
               type="email"
               id="email"
@@ -46,56 +42,64 @@
               class="formInput"
             />
           </div>
-          <div>
+          <div class="formGroup">
             <label for="No.Hp" class="formLabel required">No. Hp</label>
             <div class="phoneWrapper">
               <input id="countrySelector" type="tel" />
               <input type="tel" id="localNumber" />
             </div>
           </div>
-          <div>
+          <div class="formGroup">
             <label for="password" class="formLabel required" id="ks"
               >Kata Sandi</label
             >
+            <div class="passwordContainer">
+              <input
+                type="text"
+                id="password"
+                name="password"
+                required
+                class="formInput"
+              />
+              <img
+                class="passwordEye"
+                src="../../public/images/passwordEye.png"
+                alt=""
+              />
+            </div>
           </div>
-          <div>
-            <input
-              type="text"
-              id="password"
-              name="password"
-              required
-              class="formInput"
-            />
-          </div>
-          <div>
+          <div class="formGroup">
             <label for="confirmationPassword" class="formLabel required"
               >Konfirmasi Kata Sandi</label
             >
-          </div>
-          <div>
-            <input
-              type="text"
-              id="confirmationPassword"
-              name="confirmationPassword"
-              required
-              class="formInput"
-            />
+            <div class="passwordContainer">
+              <input
+                type="text"
+                id="password"
+                name="password"
+                required
+                class="formInput"
+              />
+              <img
+                class="passwordEye"
+                src="../../public/images/passwordEye.png"
+                alt=""
+              />
+            </div>
           </div>
           <div>
             <a href="#" class="lupaPassword">Lupa Password?</a>
           </div>
-          <div><button type="submit" class="greenButton">Daftar</button></div>
-          <div>
+          <div class="buttonContainer">
+            <button type="submit" class="greenButton">Daftar</button>
             <button class="lightGreenButton">
               <a href="#">Masuk</a>
             </button>
-          </div>
-          <div class="or">
-            <hr />
-            <span>atau</span>
-            <hr />
-          </div>
-          <div>
+            <div class="or">
+              <hr />
+              <span>atau</span>
+              <hr />
+            </div>
             <button class="google">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
