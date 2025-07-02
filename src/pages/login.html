@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Login</title>
     <link rel="stylesheet" href="../../styles/global.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -16,13 +16,13 @@
     <nav class="navbar">
       <img class="logo" src="../../public/images/videobelajar.png" alt="" />
     </nav>
-    <div class="loginContainer">
+    <div class="formContainer">
       <div class="wrapperForm">
         <h1 class="formTitle">Masuk Ke Akun</h1>
         <p class="formDesc">Yuk, lanjutin belajarmu di videobelajar</p>
         <form action="/login" method="POST">
           <div>
-            <label class="formLabel" for="email">E-Mail</label>
+            <label class="formLabel required" for="email">E-Mail</label>
           </div>
           <div>
             <input
@@ -34,7 +34,7 @@
             />
           </div>
           <div>
-            <label class="formLabel" for="password">Kata Sandi</label>
+            <label class="formLabel required" for="password">Kata Sandi</label>
           </div>
           <div class="passwordContainer">
             <input
@@ -57,7 +57,7 @@
             <button class="masuk" type="submit">Masuk</button>
           </div>
           <div>
-            <button class="daftar"><a href="#">Daftar</a></button>
+            <button class="lightGreenButton"><a href="#">Daftar</a></button>
           </div>
           <div class="or">
             <hr />
