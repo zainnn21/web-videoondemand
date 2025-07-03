@@ -14,41 +14,42 @@
       href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
       rel="stylesheet"
     />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap"
+      rel="stylesheet"
+    />
     <title>Home - Video Belajar</title>
   </head>
   <body>
+    <!-- HEADEAR -->
     <div class="headContainer">
       <nav class="navbar">
         <img class="logo" src="../../public/images/videobelajar.png" alt="" />
-        <ul class="navList">
-          <li>
-            <a href="#" id="kategori">Kategori</a>
-          </li>
-          <li>
-            <img class="profile" src="../../public/images/pp.jpg" alt="" />
-          </li>
-        </ul>
-        <div class="toggleMenu" id="menu">
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            width="24"
-            height="24"
-            viewBox="0 0 24 24"
-            fill="none"
-            stroke="currentColor"
-            stroke-width="2"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            class="mobileMenu"
-          >
-            <line x1="3" y1="12" x2="21" y2="12"></line>
-            <line x1="3" y1="6" x2="21" y2="6"></line>
-            <line x1="3" y1="18" x2="21" y2="18"></line>
-          </svg>
-        </div>
+        <a href="#">Kategori</a>
       </nav>
+      <img class="profile" src="../../public/images/pp.jpg" alt="" />
+      <div class="toggleMenu" id="menu">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="24"
+          height="24"
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="2"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          class="mobileMenu"
+        >
+          <line x1="3" y1="12" x2="21" y2="12"></line>
+          <line x1="3" y1="6" x2="21" y2="6"></line>
+          <line x1="3" y1="18" x2="21" y2="18"></line>
+        </svg>
+      </div>
     </div>
+    <!-- MAIN CONTENT -->
     <div class="contentContainer">
+      <!-- UPPER CARD BLACK BOX -->
       <div class="upperCardContainer">
         <h1>
           Revolusi Pembelajaran: Temukan <br />
@@ -64,10 +65,18 @@
         <button>Temukan Video Course untuk Dipelajari</button>
         <div class="colorOverlay"></div>
       </div>
+      <!-- COURSE CARD -->
       <div class="middleCardContainer">
         <h1>koleksi Video Pembelajaran Unggulan</h1>
         <h2>Jelajahi Dunia Pengetahuan Melalui Pilihan Kami!</h2>
-        <div class="mainCardContainer"></div>
+        <div class="mainCardContainer">
+          <h2>Semua Kelas</h2>
+          <h2>Pemasaran</h2>
+          <h2>Desain</h2>
+          <h2>Pengembangan Diri</h2>
+          <h2>Bisnis</h2>
+          <div class="cardCourse"></div>
+        </div>
       </div>
     </div>
   </body>
