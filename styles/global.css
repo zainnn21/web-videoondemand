@@ -900,6 +900,22 @@ footer {
     width: 100%;
   }
 
+  #card1 {
+    flex-direction: column-reverse;
+  }
+
+  #card21 {
+    order: 1;
+  }
+
+  #card31 {
+    order: 2;
+  }
+
+  #card32 {
+    order: 1;
+  }
+
   .textBox {
     display: flex;
     flex-direction: column;
@@ -1044,6 +1060,7 @@ footer {
   .lowerCardContainer {
     padding-right: 20px;
     padding-left: 20px;
+    width: 320px;
   }
 
   .newsLetter {
