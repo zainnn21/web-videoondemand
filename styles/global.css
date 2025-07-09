@@ -565,6 +565,7 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  width: 525px;
 }
 
 .newsLetter > h1 {
@@ -573,6 +574,7 @@ body {
   line-height: 140%;
   letter-spacing: 0.2px;
   text-align: center;
+  margin: 0px;
   color: #c1c2c4;
 }
 
@@ -586,6 +588,7 @@ body {
   font-size: 32px;
   line-height: 110.00000000000001%;
   color: white;
+  margin: 0px;
   text-align: center;
 }
 
@@ -596,11 +599,11 @@ body {
   letter-spacing: 0.2px;
   text-align: center;
   color: #f4f5fa;
+  margin-bottom: 0px;
 }
 
 .subscribeEmail {
   border-radius: 10px;
-  padding: 8px 8px 8px 32px;
   gap: 20px;
   width: 100%;
   max-width: 525px;
@@ -622,13 +625,12 @@ body {
   flex-wrap: wrap;
 }
 
-.line > h1 {
+.line > input {
+  border: none;
   font-weight: 400;
   font-size: 16px;
   line-height: 140%;
   letter-spacing: 0.2px;
-  margin: 0px;
-  color: #333333ad;
 }
 
 .line > button {
@@ -1096,24 +1098,15 @@ footer {
   }
 
   .line {
-    max-width: 280px;
-    width: 100%;
     height: 40px;
     border-radius: 10px;
-    padding: 10px 8px 10px 12px;
+    padding: 10px 0px 10px 0px;
     background-color: white;
   }
 
-  .line h1 {
-    font-weight: 400;
-    font-size: 14px;
-    margin: 0px;
-  }
-
-  .subscribeEmail button {
-    width: 100%;
+  .line > button {
     max-width: 280px;
-    height: 40px;
+    padding: 0px;
   }
 
   footer {
